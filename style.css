@@ -1,3 +1,18 @@
 body{
     background-color: lightgrey;
+    max-width: 800px;
+}
+
+.news-item{
+    display:flex;
+    flex-direction: column;
+}
+
+.news-item-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.news-item-date{
+    font-style:italic
 }
